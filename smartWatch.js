@@ -4,6 +4,8 @@ var day=date.getDay();
 var today = daysInWeek[day];
 var hours =date.getHours();
 var min =date.getMinutes();
+
+
 function home(){
 document.getElementById("screen").innerText=(today+" "+hours+":"+min);
 
@@ -11,9 +13,15 @@ document.getElementById("screen").innerText=(today+" "+hours+":"+min);
 
 
 function message(){
-document.getElementById("screen").innerText="Messages"+" "+hours+":"+min+" \n\n Hola!....This is message";
+
+document.getElementById("screen").innerHTML="Messages"+" "+hours+":"+min+" \n\n Hola!....This is message\n"+btn;
+
 
 }
 
+var buttonnode= document.createElement('input');
+buttonnode.setAttribute('type','button');
+buttonnode.setAttribute('name','one');
+var btn=buttonnode.="1";
 
 
