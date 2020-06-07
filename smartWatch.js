@@ -14,14 +14,10 @@ document.getElementById("screen").innerText=(today+" "+hours+":"+min);
 
 function message(){
 
-document.getElementById("screen").innerHTML="Messages"+" "+hours+":"+min+" \n\n Hola!....This is message\n"+btn;
+document.getElementById("screen").innerHTML="Messages"+" "+hours+":"+min+" \n\n Hola!....This is message\n";
 
 
 }
 
-var buttonnode= document.createElement('input');
-buttonnode.setAttribute('type','button');
-buttonnode.setAttribute('name','one');
-var btn=buttonnode.="1";
 
 
